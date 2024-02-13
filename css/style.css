@@ -10,3 +10,6 @@
 
 /* Utilidades */
 @import "./utilidades/componentes.css";
+
+/* Bicicletas Lista */
+@import "./bicicletas/bicicletas-lista.css";
