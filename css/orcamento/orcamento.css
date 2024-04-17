@@ -149,3 +149,38 @@
 .orcamento-produto input:checked + label + .orcamento-detalhes {
   display: grid;
 }
+
+.botao {
+  margin-top: 20px;
+}
+
+.select-dados {
+  background: var(--cor-1);
+  border: 1px solid var(--cor-2);
+  padding: 12px;
+  border-radius: 4px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+  .orcamento-produto,
+  .orcamento-dados {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 800px) {
+  .orcamento {
+    grid-template-columns: 1fr;
+  }
+  .orcamento-produto {
+    border-radius: 5px 5px 0 0;
+  }
+}
+
+@media (max-width: 400px) {
+  .orcamento-produto {
+    grid-template-columns: 1fr;
+  }
+}
